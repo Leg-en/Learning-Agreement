@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[11pt, titlepage, a4paper]{article}
 
 \usepackage{graphicx} % For images
 \usepackage{lipsum} % For sample text
@@ -7,6 +7,7 @@
 \usepackage[hidelinks]{hyperref} % For clickable links
 \usepackage{enumitem}
 \usepackage[]{datetime2}
+\usepackage[a4paper, total={15.0cm, 23cm}]{geometry}
 \def\labelitemi{--}
 
 \title{Learning Agreement}
@@ -89,13 +90,16 @@ The Evaluation of the internship will be done in form of a report. The report wi
 We, the undersigned, agree to the terms of this Internship Learning Agreement and commit to support the intern to achieve the outlined learning objectives:
 \\
 
-Intern's Signature: \hspace{3cm} Date: 
-\\
+\noindent
+\begin{tabular}{@{}p{2.5in}p{2.5in}@{}}
+  \dotfill & \dotfill \\
+  Intern's Signature & Date \\[5\bigskipamount]
+  \dotfill & \dotfill \\
+  Internship Supervisor & Date \\[5\bigskipamount]
+  \dotfill & \dotfill \\
+  Academic Advisor's/University's Signature & Date \\[5\bigskipamount]
 
-Internship Supervisor's Signature: \hspace{3cm} Date:
-\\
 
-Academic Advisor's/University's Signature: \hspace{3cm} Date:
-\\
+\end{tabular}
 
 \end{document}
